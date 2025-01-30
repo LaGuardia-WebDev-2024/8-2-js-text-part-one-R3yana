@@ -12,10 +12,16 @@ draw = function(){
   
   if(mousePressed){
     showXYPositions();
+    
   }
 
   //🎯New Text Code Should Go Here 🡻
-  
+  fill(0,0,0)
+  textSize(50);
+  text("Reyana",100,90);
+  fill(30,90,65);
+  textSize(35);
+  text("I like music",150,190);
 };
 
 //🟡Mouse Pressed Procedue - Runs When Mouse is Pressed on Canvas
